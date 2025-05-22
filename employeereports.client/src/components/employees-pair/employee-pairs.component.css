@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e7e4e4;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  p {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+  }
+  
